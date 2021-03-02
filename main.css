@@ -1,0 +1,124 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+.header {
+	border-bottom: 2px solid #dc0101;
+	
+}
+
+.page {
+	
+	
+	
+}
+
+.footer {
+	
+}
+
+.column {
+	/*border: 1px solid black;*/
+	width: 1000px;
+	margin: 0px auto;
+}
+.page .column {
+	height: 100vh;
+	
+}
+#logo-i-social {
+	display: flex;
+	
+	
+}
+
+#logo-holder {
+	flex-grow: 1;
+	
+}
+
+#social-holder{
+	flex-grow: 1;
+	text-align: right;
+}
+#social-holder a img {
+	height: 27px;
+	width: 27px;
+	margin: 5px;
+}
+
+
+#social-holder a {
+	text-decoration: none;
+	
+}
+
+
+#main-menu {
+	display: flex;
+	border-top: 2px solid #dc0101;
+}
+
+#main-menu a {
+	flex-grow: 1;
+	text-align: center;
+	display: block;
+	padding: 10px 0;
+	text-decoration: none;
+	color: #dc0101;
+	transition: 500ms;
+	
+}
+
+#main-menu a:hover {
+	background: #dc0101;
+	color: #ffffff;
+	
+}
+
+#main-menu a.active {
+	background: #dc0101;
+	color: #ffffff;
+	
+}
+#main-menu a.kt {
+	
+	border-right: 2px solid #dc0101;
+	
+}
+
+#pocetna {
+	text-align: center;
+	color: #ffffff;
+	background: url("pozadina.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#pocetna h1 {
+	font-size: 48pt;
+	margin-top: 0px;
+	color: black;
+	padding-top: calc(50vh - 250px);
+}
+.dark-box {
+	background-color: #33333380;
+	border: 1px solid #ffffff;
+	font-size: 24pt;
+	padding: 40px;
+}
+#onama {
+	border: 2px solid black
+	
+}
+
+
+
+
+
+
+
+
+
